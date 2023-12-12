@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 				url: 'addmozos',
 				type: 'POST',
-				dataType: 'JSON',
+				dataType: 'JZON',
 				contentType: 'application/json',
 				data: JSON.stringify({
 					nombre: $(".inputNombre").val(),
